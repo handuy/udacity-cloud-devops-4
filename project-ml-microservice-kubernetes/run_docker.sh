@@ -12,4 +12,4 @@ docker images
 
 # Step 3: 
 # Run flask app
-docker run -it handuy1992/udacity-4 bash
+docker run -d -p 8000:80 handuy1992/udacity-4
