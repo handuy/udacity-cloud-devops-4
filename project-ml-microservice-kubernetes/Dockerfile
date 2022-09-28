@@ -2,7 +2,7 @@ FROM python:3.7.3-stretch
 
 ## Step 1:
 # Create a working directory
-RUN mkdir -p /tmp/test
+WORKDIR /project
 
 ## Step 2:
 # Copy source code to working directory
