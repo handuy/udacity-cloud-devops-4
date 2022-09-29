@@ -1,1 +1,13 @@
-<paste log output from Kubernetes-mediated prediction, here>
+ubuntu@ip-172-31-4-34:~$ kubectl get pods
+NAME   READY   STATUS    RESTARTS   AGE
+ml     1/1     Running   0          46m
+
+ubuntu@ip-172-31-4-34:~$ kubectl port-forward pod/ml --address 0.0.0.0 8000:80
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
