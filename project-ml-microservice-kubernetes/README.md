@@ -1,4 +1,5 @@
 <include a CircleCI status badge, here>
+[![handuy](https://circleci.com/gh /handuy/udacity-cloud-devops-4.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
 
 ## Project Overview
 
