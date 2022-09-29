@@ -44,7 +44,7 @@ source .devops/bin/activate
 
 ### Steps
 
-* Setup and Configure Docker on AWS (Use AWS Cloud9)
+* Setup AWS Cloud9 environment. AWS Cloud9 will have everything we need (Python, Docker, git, aws cli, ...)
 * Setup and Configure Kubernetes on AWS (Use [Kops](https://kops.sigs.k8s.io/getting_started/aws/))
 * On AWS Cloud9: login to personal Docker Hub account (docker login)
 * Containerize Flask app
